@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CardWars", "CardWars\CardWars.csproj", "{B533AD96-8483-431A-B83E-EB23D67E8E87}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CardWarsVariant2", "CardWarsVariant2\CardWarsVariant2.csproj", "{1637B111-6821-4F99-AE6C-944D358D6670}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B533AD96-8483-431A-B83E-EB23D67E8E87}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B533AD96-8483-431A-B83E-EB23D67E8E87}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B533AD96-8483-431A-B83E-EB23D67E8E87}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B533AD96-8483-431A-B83E-EB23D67E8E87}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1637B111-6821-4F99-AE6C-944D358D6670}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1637B111-6821-4F99-AE6C-944D358D6670}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1637B111-6821-4F99-AE6C-944D358D6670}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1637B111-6821-4F99-AE6C-944D358D6670}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

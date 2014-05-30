@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Carpets", "Carpets\Carpets.csproj", "{70212662-C83D-465F-A904-1436F9402F7D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CarpetsVarian2", "CarpetsVarian2\CarpetsVarian2.csproj", "{1E8971D0-0848-45B1-8230-969684A31A8E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CarpetsVariant3", "CarpetsVariant3\CarpetsVariant3.csproj", "{D3A1A850-5E81-4CF3-8856-27E11923E77F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{70212662-C83D-465F-A904-1436F9402F7D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{70212662-C83D-465F-A904-1436F9402F7D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{70212662-C83D-465F-A904-1436F9402F7D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{70212662-C83D-465F-A904-1436F9402F7D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1E8971D0-0848-45B1-8230-969684A31A8E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1E8971D0-0848-45B1-8230-969684A31A8E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1E8971D0-0848-45B1-8230-969684A31A8E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1E8971D0-0848-45B1-8230-969684A31A8E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D3A1A850-5E81-4CF3-8856-27E11923E77F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D3A1A850-5E81-4CF3-8856-27E11923E77F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D3A1A850-5E81-4CF3-8856-27E11923E77F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D3A1A850-5E81-4CF3-8856-27E11923E77F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

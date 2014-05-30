@@ -1,0 +1,126 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace Neurons
+{
+    class Neurons
+    {
+        static void Main(string[] args)
+        {
+            int all = 0;
+            long[] grid = new long[32];
+            
+            int counter = 0;
+            // initiation of numbers
+            do
+            {
+                grid[counter] = long.Parse(Console.ReadLine());
+                if (grid[counter] == -1)
+                {
+                    all = -1;
+                }
+                counter++;
+            } while (all == 0);
+            int[,] matrix = new int [grid.Length,32];
+
+
+            bool top = false;
+            bool left = false;
+            bool right = false;
+            bool bottom = false;
+            long bit; ;
+            long nextbit = 0;
+            
+            
+            // chaking  top, left, right, bottom
+            long[] neurons = new long[32];
+            neurons[counter] = -1;
+
+            for (int row = 0; row < grid.Length; row++)
+            {
+                int mask = 1;
+                for (int column = 0; column < 32; column++)
+                {
+                    bit = grid[row] & (mask << column);
+                    
+                    if (bit == 0)
+                    {
+                        for (int i = row + 1; i < (grid.Length - 1); i++)
+                        {
+                            nextbit = grid[i] & (mask << column);
+                            if ( nextbit == 1)
+                            {
+                                bottom = true;
+                                Console.WriteLine("OK1");
+                            }
+                        }
+                        for (int i = column; i-1 > 0; i--)
+                        {
+                            nextbit = grid[row] & (mask << i);
+                            if (nextbit == 1)
+                            {
+                                left = true;
+                                Console.WriteLine("OK2");
+                            }
+                        }
+                        for (int i = column + 1; i < (grid.Length - 1); i++)
+                        {
+                            nextbit = grid[row] & (mask << i);
+                            if (nextbit == 1)
+                            {
+                                right = true;
+                                Console.WriteLine("OK3");
+                            }
+                        }
+                        for (int i = row - 1; i >= 0; i--)
+                        {
+                            nextbit = grid[i] & (mask << column);
+                            if (nextbit == 1)
+                            {
+                                top = true;
+                                Console.WriteLine("OK4");
+                            }
+                        }
+                        if (top && left && right && bottom)
+	                    {
+		                    neurons [row] = neurons [row] | (mask << column);
+	                    }
+                    }
+                    top = false;
+                    left = false;
+                    right = false;
+                    bottom = false;
+                }
+
+            }
+            for (int i = 0; i < grid.Length; i++)
+            {
+                if (grid[i] != -1)
+                {
+                    Console.WriteLine("{0}", Convert.ToString(grid[i], 2).PadLeft(32, '0'));
+                }
+                else
+                {
+                    break;
+                }
+            }
+            Console.WriteLine();
+
+            for (int i = 0; i < grid.Length; i++)
+			{
+                if (neurons[i] != -1)
+                {
+                    Console.WriteLine("{0}", Convert.ToString(neurons[i], 2).PadLeft(32, '0'));
+                }
+                else
+                {
+                    break;
+                }
+			}
+        }
+    }
+}
+

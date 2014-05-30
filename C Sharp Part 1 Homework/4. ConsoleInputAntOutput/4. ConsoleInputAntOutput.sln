@@ -1,0 +1,80 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "1. Read3IntegersAndSum", "1. Read3IntegersAndSum\1. Read3IntegersAndSum.csproj", "{478B734F-6598-4F13-A060-70C9B4672411}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "2. PrintCircle", "2. PrintCircle\2. PrintCircle.csproj", "{9EC9407C-234F-4D0D-A9E3-C9DB354EA5DD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "3. CompanyInformation", "3. CompanyInformation\3. CompanyInformation.csproj", "{77EB914A-9B64-4D1E-ADAA-17E008DEF1E0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "4. NumbersDivisibleBy5", "4. NumbersDivisibleBy5\4. NumbersDivisibleBy5.csproj", "{475CAF38-DDC9-423B-A10A-6A3465EE1DD2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "5. GreaterNumber", "5. GreaterNumber\5. GreaterNumber.csproj", "{F2E54522-BC48-487D-A7A4-E7D007582639}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "6. SolveQuadraticEquation", "6. SolveQuadraticEquation\6. SolveQuadraticEquation.csproj", "{F789AD04-6985-402A-9E26-61C07A6D1D1D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "7. CalculateSumOfNumbers", "7. CalculateSumOfNumbers\7. CalculateSumOfNumbers.csproj", "{B1644FDB-D754-471B-8166-3E2093FCEAF2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "8. PrintAllNumberInInterval", "8. PrintAllNumberInInterval\8. PrintAllNumberInInterval.csproj", "{B358D6AF-86AB-4F60-9227-2A1A7B1C6D70}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "9. FibonacciSequence", "9. FibonacciSequence\9. FibonacciSequence.csproj", "{EF9B0BFD-768E-4D83-959D-EF324A051C5A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "10. CalculateSumWithAccuracy", "10. CalculateSumWithAccuracy\10. CalculateSumWithAccuracy.csproj", "{25D840D3-C948-4815-993E-892FFAC8BAD5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "11. FallingRocksGame", "11. FallingRocksGame\11. FallingRocksGame.csproj", "{FB985F3E-9ABD-42F5-9618-8A684D3BBD1E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{478B734F-6598-4F13-A060-70C9B4672411}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{478B734F-6598-4F13-A060-70C9B4672411}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{478B734F-6598-4F13-A060-70C9B4672411}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{478B734F-6598-4F13-A060-70C9B4672411}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9EC9407C-234F-4D0D-A9E3-C9DB354EA5DD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9EC9407C-234F-4D0D-A9E3-C9DB354EA5DD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9EC9407C-234F-4D0D-A9E3-C9DB354EA5DD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9EC9407C-234F-4D0D-A9E3-C9DB354EA5DD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{77EB914A-9B64-4D1E-ADAA-17E008DEF1E0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{77EB914A-9B64-4D1E-ADAA-17E008DEF1E0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{77EB914A-9B64-4D1E-ADAA-17E008DEF1E0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{77EB914A-9B64-4D1E-ADAA-17E008DEF1E0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{475CAF38-DDC9-423B-A10A-6A3465EE1DD2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{475CAF38-DDC9-423B-A10A-6A3465EE1DD2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{475CAF38-DDC9-423B-A10A-6A3465EE1DD2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{475CAF38-DDC9-423B-A10A-6A3465EE1DD2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F2E54522-BC48-487D-A7A4-E7D007582639}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F2E54522-BC48-487D-A7A4-E7D007582639}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F2E54522-BC48-487D-A7A4-E7D007582639}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F2E54522-BC48-487D-A7A4-E7D007582639}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F789AD04-6985-402A-9E26-61C07A6D1D1D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F789AD04-6985-402A-9E26-61C07A6D1D1D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F789AD04-6985-402A-9E26-61C07A6D1D1D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F789AD04-6985-402A-9E26-61C07A6D1D1D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B1644FDB-D754-471B-8166-3E2093FCEAF2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B1644FDB-D754-471B-8166-3E2093FCEAF2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B1644FDB-D754-471B-8166-3E2093FCEAF2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B1644FDB-D754-471B-8166-3E2093FCEAF2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B358D6AF-86AB-4F60-9227-2A1A7B1C6D70}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B358D6AF-86AB-4F60-9227-2A1A7B1C6D70}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B358D6AF-86AB-4F60-9227-2A1A7B1C6D70}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B358D6AF-86AB-4F60-9227-2A1A7B1C6D70}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EF9B0BFD-768E-4D83-959D-EF324A051C5A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EF9B0BFD-768E-4D83-959D-EF324A051C5A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EF9B0BFD-768E-4D83-959D-EF324A051C5A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EF9B0BFD-768E-4D83-959D-EF324A051C5A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{25D840D3-C948-4815-993E-892FFAC8BAD5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{25D840D3-C948-4815-993E-892FFAC8BAD5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{25D840D3-C948-4815-993E-892FFAC8BAD5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{25D840D3-C948-4815-993E-892FFAC8BAD5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FB985F3E-9ABD-42F5-9618-8A684D3BBD1E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FB985F3E-9ABD-42F5-9618-8A684D3BBD1E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FB985F3E-9ABD-42F5-9618-8A684D3BBD1E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FB985F3E-9ABD-42F5-9618-8A684D3BBD1E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

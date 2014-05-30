@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TripleDigit", "TripleDigit\TripleDigit.csproj", "{46C5C34B-47AB-4069-AFD1-E039707F594D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TripleDigitRotation", "TripleDigitRotation\TripleDigitRotation.csproj", "{3130CB7B-80CE-4405-80AC-5BBCB2E10DAD}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{46C5C34B-47AB-4069-AFD1-E039707F594D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{46C5C34B-47AB-4069-AFD1-E039707F594D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{46C5C34B-47AB-4069-AFD1-E039707F594D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{46C5C34B-47AB-4069-AFD1-E039707F594D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3130CB7B-80CE-4405-80AC-5BBCB2E10DAD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3130CB7B-80CE-4405-80AC-5BBCB2E10DAD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3130CB7B-80CE-4405-80AC-5BBCB2E10DAD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3130CB7B-80CE-4405-80AC-5BBCB2E10DAD}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
